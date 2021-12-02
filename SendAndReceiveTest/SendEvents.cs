@@ -40,7 +40,7 @@ namespace SendAndReceiveTest
             {
                 // Use the producer client to send the batch of events to the event hub
                 await producerClient.SendAsync(eventBatch);
-                Console.WriteLine("A batch of 3 events has been published.");
+                Console.WriteLine("Batch of 3 events has been published.");
             }
             finally
             {
